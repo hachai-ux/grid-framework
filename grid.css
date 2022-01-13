@@ -7,6 +7,7 @@
   grid-auto-flow: auto;
 }
 
+/* Spanning*/
 /* Spans 1/12 */
 .grid-1 {
   grid-column: span 1;
@@ -30,4 +31,65 @@
 /* Spans 1/2*/
 .grid-6 {
   grid-column: span 6;
+}
+
+/* Placement*/
+/* Place at column 1*/
+.place-1 {
+  grid-column-start: 1;
+}
+
+/* Place at column 2*/
+.place-2 {
+  grid-column-start: 2;
+}
+
+/* Place at column 3*/
+.place-3 {
+  grid-column-start: 3;
+}
+
+/* Place at column 4*/
+.place-4 {
+  grid-column-start: 4;
+}
+
+/* Place at column 5*/
+.place-5 {
+  grid-column-start: 5;
+}
+
+/* Place at column 6*/
+.place-6 {
+  grid-column-start: 6;
+}
+
+/* Place at column 7*/
+.place-7 {
+  grid-column-start: 7;
+}
+
+/* Place at column 8*/
+.place-8 {
+  grid-column-start: 8;
+}
+
+/* Place at column 9*/
+.place-9 {
+  grid-column-start: 9;
+}
+
+/* Place at column 10*/
+.place-10 {
+  grid-column-start: 10;
+}
+
+/* Place at column 11*/
+.place-11 {
+  grid-column-start: 11;
+}
+
+/* Place at column 12*/
+.place-12 {
+  grid-column-start: 12;
 }
